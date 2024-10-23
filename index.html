@@ -8,55 +8,79 @@
 </head>
 <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+    <hr/>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
+    
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#lista">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+        
     </ul>
 
-    <h2>História dos computadores</h2>
+    <h2 id="historia"><strong><u>História dos computadores</u></strong></h2>
+    
+    <p>Surgiu na segunda Guerra mundial e agora, vem facilitando nosso serviço do dia a dia. Ao passar dos anos, computador vem inovando a cada vez mais. O que era simplas computador que cabia em uma sala inteira, hoje em dia cabe em nossas mochilas e bolsas, por exemplo notebook. </p>
+
+    <h5><a href="#indice">voltar</a></h5>
+    <!--Resumo com minhas palavras-->
+
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
        Não esqueça de colocar links para outros sites e também de formatar o texto com 
        <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
     <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients"><strong><u>que são <i>Clients</i>?</u></strong></h2>
+    <a>clientes</a>
+    
+    <p>É a pessoa, onde solicita os serviços no software. Por exemplo quando se usa um navegador de um site, neste caso o navegador é o cliente.</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h5><a href="#indice">voltar</a></h5>
+    <!--Resumo com minhas palavras-->
+    
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers"><strong><u>O que são <i>Servers</i>?</u></strong></h2>
+    
+   <p>É o servidor que recebe pedidos de clientes, para ser processado e enviar a resposta, tipo um feedback. </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <h5><a href="#indice">voltar</a></h5>
+    <!--Resumo com minhas palavras-->
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="html"><strong><u>Como é uma estrutura básica de um HTML?</u></strong></h2>
+    
+    <p>segue uma organização específica que define o esqueleto da página web. Os componentes principais são DOCTYPE html (tipo do documento),html (Raiz do documento), head (título e charset), body (conteúdo visível da página), header (cabeçalho), main (conteúdo principal) e footer (rodapé). Esses elementos criam a base para uma página web funcional.
+    </p>
+
+    <h5><a href="#indice">voltar</a></h5>
+    <!--Resumo com minhas palavras-->
+
+    <h2 id="lista"><strong><u>Entendendo a diferença entre listas ordenadas e não ordenadas</u></strong></h2>
+    
+    <p>As listas são marcação dentro do HTML, onde tem dois elementos que são lista ordenadas e não ordenadas
+
+      A diferença que a lista ordenada usada ol é para deixar na ordem, tipo a numeração 1, 2, 3 e assim vai.
+  
+      E a lista não ordenada é mais utilizadas menu, onde não precisa deixar na ordem. Por exemplo história, serviço e contato.</p>
+
+    <h5><a href="#indice">voltar</a></h5>
+    <!--Resumo com minhas palavras-->
+
+    
+
+    <h2 id="referencias"><strong><u>Links de referências</u></strong></h2>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
+      <li><a href="#//www.significados.com.br/evolucao-dos-computadores-geracoes-da-historia-da-informatica/?form=MG0AV3">Evolução dos Computadores</a>
+      <li><a href="#https://rextopleads.com/blog/tecnologia/servidores-redes-e-sistemas/arquitetura-cliente-servidor-entenda-os-fundamentos-e-vantagens?form=MG0AV3">Clients e Servers</a></li>
+      <li><a href="#https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics?form=MG0AV3">Sobre HTML</a>
+      </ul></li>
+   </ul>
+       <h5><a href="#indice">voltar</a></h5>
+       <footer>
+         <p>&copy; 2024 Ricardo Santana - Aluno dio.com</p>
+     </footer>
 </body>
 </html>
